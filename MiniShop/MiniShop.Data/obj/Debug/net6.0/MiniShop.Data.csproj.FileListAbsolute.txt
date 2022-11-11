@@ -1,0 +1,17 @@
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.deps.json
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.runtimeconfig.json
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.dll
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\bin\Debug\net6.0\MiniShop.Data.pdb
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\bin\Debug\net6.0\MiniShop.Entity.dll
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\bin\Debug\net6.0\MiniShop.Entity.pdb
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.csproj.AssemblyReference.cache
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.AssemblyInfoInputs.cache
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.AssemblyInfo.cs
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.csproj.CopyComplete
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.dll
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\refint\MiniShop.Data.dll
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.pdb
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\MiniShop.Data.genruntimeconfig.cache
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Data\obj\Debug\net6.0\ref\MiniShop.Data.dll

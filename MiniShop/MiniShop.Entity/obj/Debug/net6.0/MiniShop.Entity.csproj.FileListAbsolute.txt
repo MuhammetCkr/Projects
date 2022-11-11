@@ -1,0 +1,12 @@
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\bin\Debug\net6.0\MiniShop.Entity.deps.json
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\bin\Debug\net6.0\MiniShop.Entity.dll
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\bin\Debug\net6.0\MiniShop.Entity.pdb
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.csproj.AssemblyReference.cache
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.AssemblyInfoInputs.cache
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.AssemblyInfo.cs
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.csproj.CoreCompileInputs.cache
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.dll
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\refint\MiniShop.Entity.dll
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\MiniShop.Entity.pdb
+C:\Users\cukur\OneDrive\Belgeler\GitHub\repos\Week13\19-10-2022\MiniShopTekrar\MiniShop.Entity\obj\Debug\net6.0\ref\MiniShop.Entity.dll
