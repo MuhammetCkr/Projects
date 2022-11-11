@@ -1,0 +1,16 @@
+﻿@model Product
+
+<div class="col-4">
+    <div class="card mb-2">
+        <div class="card-img text-center p-5">
+            <img src="~/images/@Model.ImageUrl" width="300" height="250" alt="" />
+        </div>
+        <div class="card-body">
+            <h5 class="card-title text-primary text-center">@Model.Name</h5>
+            <div class="text-muted ps-2 text-center">@Model.Properties</div>
+        </div>
+    </div>
+    <div>
+        <a class="btn btn-sm btn-primary" asp-controller="FoodSite" asp-action="Details" asp-route-url="@Model.Url">Details</a>
+    </div>
+</div>
