@@ -13,12 +13,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\cig-kofte.jpeg",
+      "PackagePath": "staticwebassets\\images\\cig-kofte.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\ezogelin-corbasi.jpg",
+      "PackagePath": "staticwebassets\\images\\ezogelin-corbasi.jpg"
+    },
+    {
       "Id": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\kiymali-borek.jpg",
       "PackagePath": "staticwebassets\\images\\kiymali-borek.jpg"
     },
     {
       "Id": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\mercimek-corbasi.jpg",
       "PackagePath": "staticwebassets\\images\\mercimek-corbasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\patatesli-sigara-boregi.jfif",
+      "PackagePath": "staticwebassets\\images\\patatesli-sigara-boregi.jfif"
     },
     {
       "Id": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\js\\site.js",

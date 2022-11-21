@@ -33,16 +33,16 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-//app.MapControllerRoute(
-//    name: "productsByCategory",
-//    defaults:new {controller="Home", action="Index"},
-//    pattern: "products/categories/{category?}"
-//    );
-
 app.MapControllerRoute(
     name: "details",
     pattern: "product/{url}",
     defaults: new { controller = "FoodSite", action = "Details" }
+    );
+
+app.MapControllerRoute(
+    name: "search",
+    pattern: "search",
+    defaults: new { controller = "FoodSite", action = "Search" }
     );
 
 app.MapControllerRoute(

@@ -1,0 +1,65 @@
+﻿@model List<Product>
+
+<h1 class="display-5 text-primary">Product List</h1>
+<hr />
+<div>
+    <a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="ProductCreate">Create Product</a>
+    <a class="btn btn-sm btn-danger" asp-controller="Admin" asp-action="ShowDeletedProducts">Show Deleted Product</a>
+</div>
+<hr />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Is Home</th>
+            <th scope="col">Is Approved</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td><img src="~/images/@product.ImageUrl" width="50" /></td>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>
+                    <form id="isHomeForm_@product.Id"
+                        asp-controller="Admin"
+                        asp-action="UpdateIsHome"
+                        asp-route-id="@product.Id"
+                        method="post">
+
+                        <div class="form-check">
+                            <input type="checkbox"
+                                action="form-check-input"
+                                name="isHome"
+                                onchange="document.getElementById('isHomeForm_@product.Id').submit()"
+                                id="isHome_@product.Id"
+                                @(product.IsHome ? "checked" : "") />
+                        </div>
+
+                    </form>
+                </td>
+                <td>
+                    <form id="isApprovedForm_@product.Id"
+                        asp-controller="Admin"
+                        asp-action="UpdateIsApproved"
+                        asp-route-id="@product.Id"
+                        method="post" >
+
+                        <div class="form-check">
+                            <input type="checkbox"
+                                action="form-check-input"
+                                name="isApproved"
+                               onchange="document.getElementById('isApprovedForm_@product.Id').submit()"
+                                id="isApproved_@product.Id"
+                                @(product.IsApproved ? "checked" : "") />
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

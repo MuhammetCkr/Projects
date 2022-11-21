@@ -18,10 +18,5 @@ namespace FoodSiteWeb.Controllers
             var homeProduct = await _productService.GetHomeProductAsync(category);
             return View(homeProduct);
         }
-        //public async Task<IActionResult> ProductList(string category)
-        //{
-        //    var categoryProduct = await _productService.GetProductsWithCategoryAsync(category);
-        //    return View("Index",categoryProduct);
-        //}
     }
 }

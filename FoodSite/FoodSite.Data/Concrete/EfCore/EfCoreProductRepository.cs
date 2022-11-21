@@ -3,6 +3,8 @@ using FoodSite.Entity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +22,27 @@ namespace FoodSite.Data.Concrete.EfCore
             {
                 return _dbContext as FoodSiteContext;
             }
+        }
+
+        public async Task CreateAsync(Product product, int[] categoryIds)
+        {
+            await context.Products.AddAsync(product);
+            await context.SaveChangesAsync();
+            product.ProductCategories = categoryIds
+                .Select(catId => new ProductCategory
+                { 
+                    ProductId = product.Id,
+                    CategoryId = catId,
+                }).ToList();
+            await context.SaveChangesAsync();
+        }
+
+        public async Task<List<Product>> GetAllProductAsync(bool isDeleted)
+        {
+            return await context
+                .Products
+                .Where(p => p.IsDeleted == isDeleted)
+                .ToListAsync();
         }
 
         public async Task<List<Product>> GetHomeProductAsync(string category)
@@ -57,6 +80,28 @@ namespace FoodSite.Data.Concrete.EfCore
                 .ThenInclude(pm => pm.Material)
                 .ToListAsync();
 
+        }
+
+        public async Task<List<Product>> GetSearchAsync(string search)
+        {
+            var a = await context
+                .Products
+                .Where(p => p.IsApproved && p.IsDeleted == false && (p.Name.ToLower().Contains(search.ToLower()))).ToListAsync();
+            return a;
+        }
+
+        public async Task UpdateIsApprovedAsync(Product product)
+        {
+            product.IsApproved = product.IsApproved ? false : true;
+            context.Entry(product).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
+
+        public async Task UpdateIsHomeAsync(Product product)
+        {
+            product.IsHome = product.IsHome ? false : true;
+            context.Entry(product).State = EntityState.Modified;
+            await context.SaveChangesAsync();
         }
     }
 }

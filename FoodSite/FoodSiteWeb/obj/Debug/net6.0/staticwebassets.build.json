@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h3KplCB4y4AX3ICoiNwhOJAZuARZK8jokN0IkkmkHjE=",
+  "Hash": "szAmcgDiE1PUYt0Ast55aawlNrGaCCR/MCrUT6whef4=",
   "Source": "FoodSiteWeb",
   "BasePath": "_content/FoodSiteWeb",
   "Mode": "Default",
@@ -85,6 +85,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\cig-kofte.jpeg",
+      "SourceId": "FoodSiteWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\",
+      "BasePath": "_content/FoodSiteWeb",
+      "RelativePath": "images/cig-kofte.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cig-kofte.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\ezogelin-corbasi.jpg",
+      "SourceId": "FoodSiteWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\",
+      "BasePath": "_content/FoodSiteWeb",
+      "RelativePath": "images/ezogelin-corbasi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ezogelin-corbasi.jpg"
+    },
+    {
       "Identity": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\kiymali-borek.jpg",
       "SourceId": "FoodSiteWeb",
       "SourceType": "Discovered",
@@ -117,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\mercimek-corbasi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\images\\patatesli-sigara-boregi.jfif",
+      "SourceId": "FoodSiteWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\",
+      "BasePath": "_content/FoodSiteWeb",
+      "RelativePath": "images/patatesli-sigara-boregi.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\patatesli-sigara-boregi.jfif"
     },
     {
       "Identity": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\Yemek Sitesi\\FoodSite\\FoodSiteWeb\\wwwroot\\js\\site.js",

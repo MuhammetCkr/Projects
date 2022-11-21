@@ -37,5 +37,10 @@ namespace FoodSiteWeb.Controllers
             };
             return View(productDetailModel);
         }
+        public async Task<IActionResult> Search(string search)
+        {
+            List<Product> searchResult = await _productService.GetSearchAsync(search);
+            return View(searchResult);
+        }
     }
 }

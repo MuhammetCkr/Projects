@@ -23,6 +23,11 @@ namespace FoodSite.Business.Concrete
             throw new NotImplementedException();
         }
 
+        public async Task CreateAsync(Product product, int[] categoryIds)
+        {
+            await _productRepository.CreateAsync(product, categoryIds);
+        }
+
         public Task DeleteAsync(Product product)
         {
             throw new NotImplementedException();
@@ -33,9 +38,14 @@ namespace FoodSite.Business.Concrete
             throw new NotImplementedException();
         }
 
-        public Task<Product> GetByIdAsync(int id)
+        public async Task<List<Product>> GetAllProductAsync(bool isDeleted)
         {
-            throw new NotImplementedException();
+           return await _productRepository.GetAllProductAsync(isDeleted);
+        }
+
+        public async Task<Product> GetByIdAsync(int id)
+        {
+            return await _productRepository.GetByIdAsync(id);
         }
         public async Task<List<Product>> GetHomeProductAsync(string category)
         {
@@ -52,9 +62,24 @@ namespace FoodSite.Business.Concrete
             return await _productRepository.GetProductsWithMaterialAsync();
         }
 
-        public Task UpdateAsync(Product product)
+        public async Task<List<Product>> GetSearchAsync(string search)
         {
-            throw new NotImplementedException();
+            return await _productRepository.GetSearchAsync(search);
+        }
+
+        public async Task UpdateAsync(Product product)
+        {
+            await _productRepository.UpdateIsHomeAsync(product);
+        }
+
+        public async Task UpdateIsApprovedAsync(Product product)
+        {
+            await _productRepository.UpdateIsApprovedAsync(product);
+        }
+
+        public async Task UpdateIsHomeAsync(Product product)
+        {
+           await _productRepository.UpdateIsHomeAsync(product);
         }
     }
 }

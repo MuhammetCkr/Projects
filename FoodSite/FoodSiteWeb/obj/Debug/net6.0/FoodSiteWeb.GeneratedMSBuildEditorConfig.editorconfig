@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\cukur\OneDrive\Belgeler\GitHub\MuhammetCukur_Odevler\Yemek Sitesi\FoodSite\FoodSiteWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Admin/ProductCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Admin/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/FoodSite/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFNpdGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/FoodSite/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFNpdGVcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Shared/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Shared/_Material.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYXRlcmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Shared/_Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Shared/_Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cukur/OneDrive/Belgeler/GitHub/MuhammetCukur_Odevler/Yemek Sitesi/FoodSite/FoodSiteWeb/Views/Shared/_ValidationScriptsPartial.cshtml]

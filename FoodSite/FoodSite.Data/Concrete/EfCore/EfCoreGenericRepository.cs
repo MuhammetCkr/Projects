@@ -34,9 +34,11 @@ namespace FoodSite.Data.Concrete.EfCore
                 .Set<TEntity>().ToListAsync();
         }
 
-        public Task<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _dbContext
+                .Set<TEntity>()
+                .FindAsync(id);
         }
 
         public Task UpdateAsync(TEntity entity)

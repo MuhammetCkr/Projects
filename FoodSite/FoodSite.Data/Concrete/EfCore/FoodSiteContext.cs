@@ -49,7 +49,7 @@ namespace FoodSite.Data.Concrete.EfCore
                 .Entity<Category>()
                 .HasData(
 
-                new Category() { Id = 1, Name = "Atıştırmalık", Description = "Atıştırmalık", Url = "cigkofte" },
+                new Category() { Id = 1, Name = "Atıştırmalık", Description = "Atıştırmalık", Url = "atistirmalik" },
                 new Category() { Id = 2, Name = "Çorba", Description = "Başlangıç Tabağı", Url = "corba" },
                 new Category() { Id = 3, Name = "Kahvaltı", Description = "Kahvaltı Tabağı", Url = "kahvalti" },
                 new Category() { Id = 4, Name = "Tatlı", Description = "Tatlı Tabağı", Url = "tatli" },
