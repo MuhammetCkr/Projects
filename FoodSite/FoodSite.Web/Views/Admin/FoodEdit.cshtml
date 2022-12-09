@@ -1,0 +1,60 @@
+﻿@model FoodEditModel
+
+<h1>Edit Food</h1>
+<form asp-controller="Admin" asp-action="FoodEdit" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="FoodId" value="@Model.Id" />
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" asp-for="Name" />
+                </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Recipe"></label>
+                </div>
+                <div class="col-md-8">
+                    <textarea class="col-md-8" type="text" asp-for="Recipe"></textarea>
+                </div>
+                <span asp-validation-for="Recipe" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-2">
+                    <label asp-for="Image">Image</label>
+                </div>
+                <div class="col-md-10">
+                    <img width="50%" height="50%" style="object-fit:cover" src="~/web/images/food_images/@Model.Image" id="imgViewer" />
+                    <input class="d-none" type="file" name="file" id="formFile" accept="image/" />
+                    <div>
+                        <label class="btn btn-light">Upload Image</label>
+                        <label id="imageUrl">@Model.Image</label>
+                    </div>
+                </div>
+                <span class="text-danger">@ViewBag.ImageErrorMessage</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            @foreach (var category in (List<Category>)ViewBag.Categories)
+            {
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox"
+                       class="form-check-input"
+                       value="@category.CategoryId"
+                       name="categoryIds"
+                       @if (Model.SelectedCategories != null)
+                       {
+                           @(Model.SelectedCategories.Any(c => c.CategoryId == category.CategoryId) ? "checked" : "")
+                       } />
+                       <label class="custom-control-label">@category.CategoryName</label>
+                </div>
+            }
+            <span class="text-danger">@ViewBag.CategoryErrorMessage</span>
+            <hr />
+        </div>
+    </div>
+</form>

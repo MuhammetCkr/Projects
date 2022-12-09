@@ -1,0 +1,33 @@
+﻿<div class="header">
+    <div class="wrap">
+        <div class="logo"><a asp-controller="Home" asp-action="Index"><img src="~/web/images/logo.png" alt="" /></a></div>
+        <div class="con-right">
+            <div class="grid1-l-img">
+                <img src="~/web/images/contact.png" alt="">
+            </div>
+            <div class="grid1-l-desc">
+                <p>Contact : +90 551-433-7456</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="header-bottom">
+    <div class="wrap">
+        <ul id="nav">
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a class="hsubs" asp-controller="Food" asp-action="Index">Foods</a></li>
+            <li>
+                <a class="hsubs" href="#">Category</a>
+                <ul class="subs">
+                    <li><a href="#">@await Component.InvokeAsync("Categories")</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Beach Resorts</a></li>
+                </ul>
+            </li>
+            <li><a asp-controller="Admin" asp-action="FoodList">Admin Food List</a></li>
+        </ul>
+    </div>
+</div>

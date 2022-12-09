@@ -1,0 +1,15 @@
+﻿@model Food
+<div class="container">
+    <h1>@Model.FoodName</h1>
+    <br />
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/web/images/food_images/@Model.FoodImage" width="50%" />
+        </div>
+        <div class="col-md-6">
+            <ul>
+                <li>@Model.FoodRecipe</li>
+            </ul>
+        </div>
+    </div>
+</div>

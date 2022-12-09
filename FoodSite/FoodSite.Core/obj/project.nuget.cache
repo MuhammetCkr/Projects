@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jBSNSSkdZXMveEMd5XmKpZ0Q5g/3X7/5SsLkDWgln3IXNXnCFIXhPo9D6uJR/y20693EJBMAqU0ajG1jJUDq6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cukur\\OneDrive\\Belgeler\\GitHub\\MuhammetCukur_Odevler\\YemekTarifiSitesi\\FoodSite\\FoodSite.Core\\FoodSite.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cukur\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\cukur\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\cukur\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
